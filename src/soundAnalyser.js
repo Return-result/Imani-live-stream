@@ -18,7 +18,7 @@ class SoundAnalyser extends Component {
         const audioEle = new Audio();
         audioEle.crossOrigin = "anonymous";//important for CORS
 
-        audioEle.src = 'http://91.121.165.88:8116/stream';//insert file name here
+        audioEle.src = 'http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p';//insert file name here
         audioEle.autoplay = true;
         audioEle.preload = 'auto';
         const audioSourceNode = audioCtx.createMediaElementSource(audioEle);
