@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.radio {
+    text-align: center;
+    background-image: url('./resources/ninradio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.hbr-title {
+    position: fixed;
+    left: 5px;
+    top: 66%;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    font-size: 17pt;
+}
+
+.set-logo-image-dimensions {
+    height: 140px;
+    width: 160px;
+}
+
+.right-floater {
+    float: right;
+}
+
+/* For the shortcuts component */
+.callout {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    max-width: 250px;
+}
+
+.callout-header {
+    /* top right bottom left */
+    padding: 8px 8px 8px 8px;
+    background: #fff;
+    color: #3273dc;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 26px;
+    width: 240px;
+}
+
+.callout-header span {
+    font-size: 12pt;
+}
+
+.callout-header-image-dimensions {
+    height: 22px;
+    width: 22px;
+}
+
+.callout-container {
+    /* top right bottom left */
+    padding: 8px 8px 8px 8px;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.speech-bubble {
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #00aabb;
+    border-top: 0;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.callout-container p {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 12pt;
+    line-height: 12px;
+}
+
+.callout-container span {
+    color: black;
+}
+
+.play-pause-img-dimensions {
+    height: 50px;
+    width: 50px;
+}
+
+.add-some-margin {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cursor-to-hand {
+    cursor: pointer;
+}
+
+.mute-btn-dimensions {
+    height: 25px;
+    width: 30px;
+}
+
+/* for the slider */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 4px;
+    background: #3498db;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(-10px);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #34495e;
+    position: relative;
+    border: 3px solid #e74c3c;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.add-left-margin {
+    /* margin-left: 2px; */
+    font-size: 16pt;
+    color: #000000;
+}
+
+.spectrum-img-dimensions {
+    height: 80px;
+    width: 65%;
+}
+
+.radio-link {
+    margin-top: 50px;
+}
+
+.radio-link,
+a {
+    color: #ffffff;
+    font-size: 8pt;
+    line-height: 0px
+}
+
+.radio-link-img-dimensions {
+    height: 20px;
+    width: 20px;
+}
+
+.thisimg {
+    padding-top: 4px;
+    margin-right: 2px;
+}
+
+/* For mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .hbr-title {
+        top: 60%;
+        font-size: 12pt;
+        left: -5px;
+    }
+
+    .set-image-dimensions {
+        height: 100px;
+        width: 160px;
+    }
+
+    /* For the shortcuts component */
+    .callout {
+        position: static;
+    }
+
+    .callout-header {
+        /* top right bottom left */
+        padding: 5px 5px 5px 5px;
+    }
+
+    .callout-header-image-dimensions {
+        height: 20px;
+        width: 20px;
+    }
+
+    .callout-container {
+        /* top right bottom left */
+        padding: 5px 5px 5px 5px;
+    }
+
+    .spectrum-img-dimensions {
+        height: 45px;
+        width: 90%;
+    }
+
+    .radio-link {
+        margin-top: 20px;
+    }
+
+    input[type="range"] {
+        width: 180px;
+    }
+}
