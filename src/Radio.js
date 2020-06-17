@@ -126,7 +126,7 @@ class RadioPlayer extends Component {
                 </div>
 
                 
-                <Shortcuts />
+                 {/* <Shortcuts /> */}
 
                 {/* The Play/Pause ('button') image */}
                 <img className="play-pause-img-dimensions add-some-margin cursor-to-hand" src={playing ? pausebtn : playbtn} alt="pause" onClick={this.playPause} />
