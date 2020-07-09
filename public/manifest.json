@@ -5,72 +5,45 @@
   "lang": "en",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "background_color": "#151016",
+  "theme_color": "#9027D5",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "../src/resources/favicon",
-      "sizes": "57x57",
-      "type": "image/png"
+      "src": "../src/resources/fav/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
     },
     {
-      "src": "../src/resources/favicon",
-      "sizes": "60x60",
-      "type": "image/png"
+      "src": "../src/resources/fav/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": "1.0"
     },
     {
-      "src": "../src/resources/favicon",
+      "src": "../src/resources/fav/android-icon-72x72.png",
       "sizes": "72x72",
-      "type": "image/png"
+      "type": "image/png",
+      "density": "1.5"
     },
     {
-      "src": "../src/resources/favicon",
-      "sizes": "76x76",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "114x114",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "120x120",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "152x152",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "../src/resources/favicon",
+      "src": "../src/resources/fav/android-icon-96x96.png",
       "sizes": "96x96",
-      "type": "image/png"
+      "type": "image/png",
+      "density": "2.0"
     },
     {
-      "src": "../src/resources/favicon",
-      "sizes": "16x16",
-      "type": "image/png"
+      "src": "../src/resources/fav/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "../src/resources/fav/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
     }
   ]
 }
