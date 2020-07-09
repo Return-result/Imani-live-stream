@@ -1,15 +1,76 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
-  "start_url": ".",
+  "name": "shine fm",
+  "short_name": "shine",
+  "description": "radio web app",
+  "lang": "en",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "icons": [
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "../src/resources/favicon",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
 }
