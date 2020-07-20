@@ -3,7 +3,7 @@
   "short_name": "shinefm",
   "description": "radio web app",
   "lang": "en",
-  "start_url": "/",
+  "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "background_color": "#151016",
   "theme_color": "#9027D5",
