@@ -18,7 +18,7 @@ class SoundAnalyser extends Component {
         const audioEle = new Audio();
         audioEle.crossOrigin = "anonymous";//important for CORS
 
-        audioEle.src = 'http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=5&rate=1&kbps=128';
+        audioEle.src = 'http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p';
         audioEle.autoplay = true;
         audioEle.preload = 'auto';
         const audioSourceNode = audioCtx.createMediaElementSource(audioEle);
@@ -81,7 +81,7 @@ class SoundAnalyser extends Component {
 
         return (
             <div>
-                <button onClick={this.toogleStates}> {this.state.audio ? "washa radio" : 'zima hiyo shit!'} </button>
+                <button onClick={this.toogleStates}> {this.state.audio ? "on" : 'off'} </button>
                 {this.state.audio ? this.createFrequencyBar : ''}
             </div>
         )
