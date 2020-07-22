@@ -81,7 +81,7 @@ class RadioPlayer extends Component {
   }
 
   render() {
-    const radioUrl = "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=5&rate=1&kbps=128";
+    const radioUrl = "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p";
     const { playing, volume, muted, buffering } = this.state;
     let radiostate;
     let showbufferingimg = false;
