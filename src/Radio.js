@@ -2,13 +2,11 @@ import React, { Component } from "react";
 import FilePlayer from "react-player/lib/players/FilePlayer";
 
 import FooterComponent from "./footerComponent";
-// import Shortcuts from './shortcutsComponent'
 
 import "./radio.css";
 
 import playbtn from "./resources/play.svg";
 import pausebtn from "./resources/pause.svg";
-// import logopic from './resources/logo.svg'
 import logopic2 from "./resources/not-used/307365.svg";
 
 import spectrumpic from "./resources/spectrum.gif";
@@ -113,10 +111,9 @@ class RadioPlayer extends Component {
           <h5>Shine FM Live Stream</h5>
         </div>
 
-        {/* The logo */}
         <div>
           <img src={logopic2} alt="" className="set-logo-image-dimensions" />
-          {/* Check state of 1.Playing, 2.Paused and 3.Buffering 4.Muted*/}
+
           <h4>
             {" "}
             Shine FM {radiostate}{" "}
@@ -157,7 +154,6 @@ class RadioPlayer extends Component {
           onError={(e) => console.log("onError", e)}
         />
 
-        {/* the volume and  Mute buttons */}
         <div>
           <img
             className="mute-btn-dimensions cursor-to-hand"
@@ -178,7 +174,6 @@ class RadioPlayer extends Component {
           </label>
         </div>
 
-        {/*The voice spectrum*/}
         {showbufferingimg ? (
           <img
             className="spectrum-img-dimensions"
