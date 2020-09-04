@@ -2,18 +2,15 @@
 
 .radio {
   text-align: center;
-  background-image: url("./resources/ninradio.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(#009acd, #e0ffff);
   background-blend-mode: screen;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .hbr-title {
@@ -146,7 +143,7 @@ input[type="range"]::-webkit-slider-thumb {
 .add-left-margin {
   /* margin-left: 2px; */
   font-size: 16pt;
-  color: #ffffff;
+  color: #000000;
 }
 
 .spectrum-img-dimensions {
@@ -222,6 +219,7 @@ a {
   }
 
   .h2 {
-    color: white;
+    margin-top: 20px;
+    color: #ff7f2a;
   }
 }

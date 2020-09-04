@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faTwitter,
-  faYoutube,
+  faGoogle,
+  faGlobe,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default class footerComponent extends Component {
@@ -14,32 +15,34 @@ export default class footerComponent extends Component {
         <FontAwesomeIcon
           icon={faFacebook}
           size="2x"
-          style={{ color: "white" }}
+          style={{ color: "#000000" }}
           onClick={(event) =>
-            (window.location.href = "https://www.facebook.com/ShineFm103.1/")
+            (window.location.href =
+              "https://www.facebook.com/pages/category/Media-News-Company/Imani-Radio-792634037482961/")
           }
         />
 
         <FontAwesomeIcon
           icon={faTwitter}
           size="2x"
-          style={{ color: "white", marginLeft: "12px" }}
+          style={{ color: "#000000", marginLeft: "12px" }}
           onClick={(event) =>
-            (window.location.href = "https://twitter.com/shinefm103?lang=en")
+            (window.location.href = "https://twitter.com/imaniradioke?lang=en")
           }
         />
 
         <FontAwesomeIcon
-          icon={faYoutube}
+          icon={faGoogle}
           size="2x"
-          style={{ color: "white", marginLeft: "12px" }}
+          style={{ color: "#000000", marginLeft: "12px" }}
           onClick={(event) =>
-            (window.location.href =
-              "https://www.youtube.com/channel/UCsOKUNkcRBp75niZbqcsOvw")
+            (window.location.href = "http://www.imaniradio.org/")
           }
         />
 
-        <h2>Powered by Daystar University</h2>
+        <h2 style={{ color: "#000000", marginTop: "20px" }}>
+          Powered by Imani Radio
+        </h2>
       </div>
     );
   }

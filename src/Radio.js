@@ -79,7 +79,7 @@ class RadioPlayer extends Component {
   }
 
   render() {
-    const radioUrl = "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p";
+    const radioUrl = "https://ic2.sslstream.com/imani";
     const { playing, volume, muted, buffering } = this.state;
     let radiostate;
     let showbufferingimg = false;
@@ -108,7 +108,7 @@ class RadioPlayer extends Component {
     return (
       <div className="radio">
         <div className="hbr-title">
-          <h5>Shine FM Live Stream</h5>
+          <h5>Imani Radio Live Stream</h5>
         </div>
 
         <div>
@@ -116,7 +116,7 @@ class RadioPlayer extends Component {
 
           <h4>
             {" "}
-            Shine FM {radiostate}{" "}
+            Imani Radio {radiostate}{" "}
             {showbufferingimg ? (
               <img
                 className="right-floater"
